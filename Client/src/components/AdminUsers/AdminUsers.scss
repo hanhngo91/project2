@@ -1,0 +1,43 @@
+.admin-users{
+    background-color: black;
+    table{
+        width: 90%;
+        margin: 0 3rem;
+        color: white;
+        padding-top: 7rem;
+        text-align: center;
+
+        thead{
+            tr{
+                th{
+                    color: #EE227F;
+                    padding: 1.5rem;
+
+                }
+            }
+        }
+
+        tbody{
+            tr{
+                td{
+                    padding: .5rem;
+
+                    button{
+                        margin: 0 1rem;
+                        padding: 0.3rem .8rem;
+                        background-color: black;
+                        color: white;
+                        border: none;
+                        font-size: 1rem;
+
+                        &:hover{
+                        color: #EE227F;
+                        cursor: pointer;
+                        border: 1px solid #EE227F;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,49 @@
+@mixin mobile{
+    @media screen and (max-width:480px){
+        @content;
+    }
+}
+@mixin tablet{
+    @media screen and (max-width:768px){
+        @content;
+    }
+}@mixin laptop{
+    @media screen and (max-width:1200px){
+        @content;
+    }
+}
+
+
+.featuredProducts{
+    margin: 1.5rem 5rem;
+
+    @include tablet{
+        width: 90%;
+    }
+     
+    .top{
+        display: flex;
+        justify-content: space-around;
+        gap: 2rem;
+        align-items: center;
+        color: white;
+
+
+        h1{
+            flex: 2;
+            text-transform: capitalize;
+
+        }
+
+        p{
+            flex: 3;
+            color: white;
+        }
+    }
+
+    .bottom{
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+}

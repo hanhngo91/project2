@@ -1,0 +1,169 @@
+{
+  "products": [
+    {
+      "id": 1053166540518,
+      "title": "Sparkling fruit juice",
+      "img": "https://firebasestorage.googleapis.com/v0/b/hannie-bubble-tea.appspot.com/o/featured%20products%2Ffeatured3.png?alt=media&token=924c0ab0-3c17-44c7-b977-f73e972045c6",
+      "isNew": true,
+      "oldPrice": 8.99,
+      "price": 7.99,
+      "desc": "Sparkling fruit juice with orange flavor",
+      "type": "featured",
+      "category": "sparkling tea"
+    },
+    {
+      "id": 1683166200518,
+      "title": "Matcha fresh milk tea",
+      "img": "https://firebasestorage.googleapis.com/v0/b/hannie-bubble-tea.appspot.com/o/featured%20products%2Ffeatured4.png?alt=media&token=77710935-614c-416b-8c54-537c24d0ecd1",
+      "isNew": true,
+      "oldPrice": 9.99,
+      "price": 8.99,
+      "desc": "Original matcha tea with matcha from Uji, Japan",
+      "type": "featured",
+      "category": "boba tea"
+    },
+    {
+      "id": 1683166501718,
+      "title": "Sweet caramel milk tea",
+      "img": "https://firebasestorage.googleapis.com/v0/b/hannie-bubble-tea.appspot.com/o/Bestsellers%2FBlack%20Simple%20Boba%20Drink%20Cafe%20Menu%20Portait.png?alt=media&token=839a2f55-c049-4e61-b62e-412d11e75b61",
+      "isNew": true,
+      "oldPrice": 9.99,
+      "price": 8.99,
+      "desc": "Milk tea with caramel flavor and black pearls tapioca",
+      "type": "bestseller",
+      "category": "boba tea"
+    },
+    {
+      "id": 1683166540051,
+      "title": "Original boba tea",
+      "img": "https://firebasestorage.googleapis.com/v0/b/hannie-bubble-tea.appspot.com/o/Bestsellers%2FBrown%20Modern%20Milk%20Boba%20Drink%20Best%20Seller%20Poster.png?alt=media&token=0015a160-377a-488c-b482-3e8c303ce777",
+      "isNew": true,
+      "oldPrice": 9.99,
+      "price": 8.99,
+      "desc": "Original boba milk tea with tapioca",
+      "type": "bestseller",
+      "category": "boba tea"
+    },
+    {
+      "id": 1937166540518,
+      "title": "Premium chocolate tea",
+      "img": "https://firebasestorage.googleapis.com/v0/b/hannie-bubble-tea.appspot.com/o/Bestsellers%2FChocolate%20Boba%20Drink%20Instagram%20Story.png?alt=media&token=b2f3fc56-103a-4a6b-be31-de8d0df2199b",
+      "isNew": true,
+      "oldPrice": 9.99,
+      "price": 8.99,
+      "desc": "Premium Belgium chocolate milk tea with tapioca",
+      "type": "bestseller",
+      "category": "boba tea"
+    },
+    {
+      "id": 1683169360518,
+      "title": "Premium matcha milk tea",
+      "img": "https://firebasestorage.googleapis.com/v0/b/hannie-bubble-tea.appspot.com/o/Bestsellers%2FGreen%20Organic%20Marcha%20Menu%20Instagram%20Stories.png?alt=media&token=d4588703-972a-46a8-963a-1150abc1bdb5",
+      "isNew": true,
+      "oldPrice": 9.99,
+      "price": 8.99,
+      "desc": "Premium matcha milk tea with matcha from Uji, Japan",
+      "type": "bestseller",
+      "category": "boba tea"
+    },
+    {
+      "id": 1683166540518,
+      "title": "Graine Basilic",
+      "img": "https://firebasestorage.googleapis.com/v0/b/hannie-bubble-tea.appspot.com/o/images%2FEXTRAS_GRAINE-BASILIC.png?alt=media&token=a886dd85-4a04-4ead-8675-6f5424a5bbbe",
+      "isNew": false,
+      "oldPrice": 3.99,
+      "price": 2.99,
+      "desc": "Graine de basilic 50g",
+      "type": "normal",
+      "category": "extras"
+    },
+    {
+      "id": 1683281963137,
+      "title": "Taro boba tea",
+      "img": "https://firebasestorage.googleapis.com/v0/b/hannie-bubble-tea.appspot.com/o/images%2FSPECIALITIES-TARO-REGULIER.png?alt=media&token=ff028c94-4896-4058-85d1-8068582f84bd",
+      "isNew": false,
+      "oldPrice": "9.99",
+      "price": "8.99",
+      "desc": "Boba milk tea with taro flavor.",
+      "type": "normal",
+      "category": "specialties"
+    },
+    {
+      "id": 1683287186583,
+      "title": "Litchi Sparkling",
+      "img": "https://firebasestorage.googleapis.com/v0/b/hannie-bubble-tea.appspot.com/o/images%2FSPARKLING%20FRUITJUICE-LITCHI-PETILLANT.png?alt=media&token=d80eab94-98ba-4431-bfd8-0482cb634751",
+      "isNew": true,
+      "oldPrice": "0.00",
+      "price": "8.99",
+      "desc": "Sparkling fruit juice with litchi flavor.",
+      "type": "normal",
+      "category": "sparkling tea"
+    },
+    {
+      "id": 1683287313387,
+      "title": "Original boba tea",
+      "img": "https://firebasestorage.googleapis.com/v0/b/hannie-bubble-tea.appspot.com/o/images%2Ffeatured1.png?alt=media&token=f915220c-8734-45b4-81b0-603bdf74a808",
+      "isNew": false,
+      "oldPrice": "9.99",
+      "price": "8.99",
+      "desc": "Original tapioca boba milk tea.",
+      "type": "featured",
+      "category": "boba tea"
+    },
+    {
+      "id": 1683287451674,
+      "title": "Sparkling fruit juice",
+      "img": "https://firebasestorage.googleapis.com/v0/b/hannie-bubble-tea.appspot.com/o/images%2Ffeatured2.png?alt=media&token=5f97d6c0-0408-4472-a99e-cc110684f733",
+      "isNew": false,
+      "oldPrice": "8.99",
+      "price": "7.99",
+      "desc": "Sparkling fruice tea.",
+      "type": "featured",
+      "category": "sparkling tea"
+    },
+    {
+      "id": 1683287788016,
+      "title": "Geree rainbow ",
+      "img": "https://firebasestorage.googleapis.com/v0/b/hannie-bubble-tea.appspot.com/o/images%2FEXTRAS_GELEE-RAINBOW.png?alt=media&token=513ead3e-16d2-48ae-8a0c-0006ab5b0970",
+      "isNew": false,
+      "oldPrice": "0.00",
+      "price": "3.99",
+      "desc": "Mix jelly toppings",
+      "type": "normal",
+      "category": "extras"
+    },
+    {
+      "id": 1683287942376,
+      "title": "Sunset petit",
+      "img": "https://firebasestorage.googleapis.com/v0/b/hannie-bubble-tea.appspot.com/o/images%2FSPECIALITIES-SUNSET-REGULIER.png?alt=media&token=e1a4aa79-b3e9-4d3e-84d7-969418cf0849",
+      "isNew": false,
+      "oldPrice": "0.00",
+      "price": "8.99",
+      "desc": "Black orange fruit juice with jelly.",
+      "type": "normal",
+      "category": "specialties"
+    }
+  ],
+  "users": [
+    {
+      "id": 1683275283194,
+      "username": "Test1234",
+      "phonenumber": "098-765-4321",
+      "email": "test1234@gmail.com",
+      "password": "Test123456",
+      "order": [],
+      "cartProducts": [],
+      "favoriteProducts": []
+    },
+    {
+      "id": 1683275805491,
+      "username": "nvquy",
+      "phonenumber": "098-765-4312",
+      "email": "quy@gmail.com",
+      "password": "Quy12345678",
+      "order": [],
+      "cartProducts": [],
+      "favoriteProducts": []
+    }
+  ]
+}

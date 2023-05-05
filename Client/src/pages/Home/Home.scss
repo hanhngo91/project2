@@ -1,0 +1,66 @@
+@mixin mobile{
+    @media screen and (max-width:480px){
+        @content;
+      
+    }
+}
+@mixin tablet{
+    @media screen and (max-width:768px){
+        @content;
+    }
+}@mixin laptop{
+    @media screen and (max-width:1200px){
+        @content;
+    }
+}
+
+
+.home{
+    background-color: black;
+
+    @include tablet{
+        width: 130%;
+        .navbar{
+            .wrapper{
+                .left{
+                    .item{
+                        .link{
+                         font-size: 5px !important
+                        }
+                    }
+    
+                }
+            }
+
+        }
+        .slider{
+            img{
+                width: 120%;
+
+            }
+        }
+       
+        .featuredProducts{
+            width: 80%;
+            .bottom{
+                margin-left: 2rem;
+                width: 768px;
+                .link{
+                    .card{
+                        .image{
+                            width: 80%;
+                            height: 70%;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+    @include mobile{
+        .home{
+            width: 1200px;
+        }
+    }
+     
+}

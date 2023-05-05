@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+.add-products-btn{
+    background-color: white;
+    position: absolute;
+    top: 5rem;
+    margin-left: 33%;
+    margin-right: auto;
+    width: 30rem;
+    height: auto;
+    background-color: #fff;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+
+    h3{
+        font-size: 2rem;
+        color: #EE227F;
+    }
+    form{
+        margin-top: 1rem;
+        table{
+            width: 100%;
+            tr{
+           
+                td{
+                    margin: 1rem 0;
+                    #addImage{
+                        font-size: 1rem;
+                    }
+                    input{
+                        padding: 0.3rem .8rem;
+                        width: 15rem;
+                        margin: .5rem 0;
+                        font-size: 1rem;
+                    }
+                    #checkbox{
+                        width: 2rem;
+                    }
+
+                    #status{
+                        font-weight: 500;
+                        font-size: 1.3rem;
+                    }
+                    label{
+                        font-size: 1rem;
+                        font-weight: 600;
+                    }
+                }
+                select{
+                    width: 15rem;
+                    font-size: 1rem;
+                    margin-top: 0.6rem;
+                }
+                .image{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: blue;
+                    img{
+                        width: 3rem;
+                        height: 3.2rem;
+                        // margin-right: 20px;
+                    }
+                    #file{
+                        display: none;
+                    }
+                }
+            }
+        }
+        button{
+            margin-top: 2rem;
+            margin-left: 2rem;
+            padding: 0.5rem 1rem;
+            width: 5rem;
+            font-size: 1rem;
+            cursor: pointer;
+            color: black;
+            background-color: #ee227e6a;
+            border: none;
+
+            &:hover{
+                background-color: #ee227e97;
+            }
+        }
+    }
+}

@@ -1,0 +1,90 @@
+.admin-navbar{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    position: fixed; 
+    z-index: 1000;   
+    // margin-bottom: 4rem;
+    .wrapper{
+        padding: 10px 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .item{
+            display: flex;
+            align-items: center;
+            font-size: 17px;
+            color: white;
+
+            .link{
+                &:hover{
+                    color:#EE227F
+                }
+            }
+        }
+        .left{
+           
+            img{
+                height: 3.5rem;
+                width: 13rem;
+            }
+        }
+        .center{
+            display: flex;
+            align-items: center;
+            gap:1.5rem;
+          
+        }
+        .right{
+            display: flex;
+            align-items: center;
+            gap:1.5rem;
+
+            .icons{
+                display: flex;
+                gap:1rem;
+                color: #777;
+                cursor: pointer;
+                color: white;
+
+                .notification{
+                    &:hover{
+                        color:#EE227F;
+                        font-size: 2.5rem;
+                        transition: 0.5s ease;
+                    }
+                }
+
+                .letter{
+                    &:hover{
+                        color:#EE227F;
+                        font-size: 2.5rem;
+                        transition: 0.5s ease;
+                    }
+                }
+
+                .logoutAdmin{
+                    padding: 0.2rem 0.4rem;
+                    border-radius: 20px;
+                    background-color: #ee227e5c;
+                    border: none;
+                    color: white;
+                    cursor: pointer;
+
+                    &:hover{
+                        background-color: #ee227ec3;
+                    }
+                }
+
+                .user{
+                    &:hover{
+                        color:#EE227F;
+                        font-size: 2.5rem;
+                        transition: 0.5s ease;
+                    }
+                }
+
+            }
+        }
+    }
+}

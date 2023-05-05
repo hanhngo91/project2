@@ -1,0 +1,39 @@
+.contact{
+    background-color: rgb(250, 190, 200);
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+
+    .wrapper{
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        input{
+            padding: .5rem;
+            border: none;
+            border-radius: .5rem 0 0 .5rem;
+        }
+
+        button{
+            padding: .5rem;
+            color: white;
+            background-color: rgb(236, 122, 141);
+            border-radius: 0 .5rem .5rem 0;
+            border: none;
+            cursor: pointer;
+
+            &:hover{
+                background-color: rgb(237, 85, 110);
+
+            }
+        }
+
+        .icons{
+            display: flex;
+            gap: 1rem;
+        }
+    }
+}

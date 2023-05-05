@@ -1,0 +1,110 @@
+.product{
+    padding: 2rem 5rem;
+    display: flex;
+    gap: 5rem;
+    background-color: black;
+    padding-top: 7rem;
+
+    .left{
+        flex: 2;
+        .image{
+            img{
+                width: 100%;
+                height: 25rem;
+                object-fit: cover;
+            }
+        }
+    }
+
+    .right{
+        flex: 3;
+        .title{
+            display: flex;
+            margin-bottom: 1rem;
+
+            
+        }
+
+        .price{
+            color: #EE227F;
+            font-size: 1.5rem;
+            font-weight: 500;
+            margin-top: 3rem;
+        }
+
+        h1{
+            color: #EE227F;
+        }
+
+        p{
+            margin-top: 1rem;
+            color: white;
+            font-size: 1.4rem;
+            text-align: justify;
+        }
+
+        .quantity{
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-top: 2rem;
+
+            button{
+                width: 2rem;
+                height: 2rem;
+                font-size: 1.5rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                border: none;
+                background-color: black;
+                color: #EE227F;
+                border: 1px solid #EE227F;
+
+                &:hover{
+                    background-color: #f64d995d;
+                }
+            }
+            span{
+                color: white;
+            }
+        }
+        .buttons{
+            display: flex;
+            gap: 2rem;
+            margin-top: 2rem;
+            .add{
+                width: 10rem;
+                padding: 0.5rem 1rem;
+                background-color: black;
+                color: #EE227F;
+                border: 1px solid #EE227F;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+
+                &:hover{
+                    background-color: #f64d995d;
+                }
+            }
+
+            .favorite{
+                width: 10rem;
+                padding: 0.5rem 1rem;
+                background-color: black;
+                color: #EE227F;
+                border: 1px solid #EE227F;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+
+                &:hover{
+                    background-color: #f64d995d;
+                }
+            }
+        }
+    }
+}
